@@ -1,0 +1,66 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"airbnb",
+		"prettier",
+		"prettier/react"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react",
+		"jsx-a11y",
+		"import",
+		"babel",
+		"prettier"
+	],
+	"settings": {
+		"import/resolver": {
+			"webpack": {
+				"config": "webpack.common.js"
+			},
+			"node": {
+				"paths": [
+					"src"
+				]
+			}
+		}
+	},
+	"rules": {
+		"camelcase": 0,
+		"babel/camelcase": 1,
+		"prettier/prettier": "error",
+		"react/jsx-filename-extension": [
+			"error",
+			{
+				"extensions": [
+					".jsx",
+					".js"
+				]
+			}
+		],
+		"react/jsx-props-no-spreading": 0,
+		"react/no-array-index-key": 0,
+		"react/button-has-type": 0,
+		"react/jsx-one-expression-per-line": [
+			1,
+			{
+				"allow": "single-child"
+			}
+		],
+		"import/prefer-default-export": 0
+	}
+}
