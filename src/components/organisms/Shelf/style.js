@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import designSystem from '../../../designSystem';
+import { Link as LinkComponent } from '../../atoms';
 
 export const Shelf = styled.article`
   display: grid;
@@ -14,4 +15,9 @@ export const Shelf = styled.article`
   @media (min-width: ${designSystem.get('display.sizes.desktop')}) {
     grid-template-columns: repeat(${props => props.gridLg}, 1fr);
   }
+`;
+
+export const Link = styled(LinkComponent)`
+  color: inherit;
+  text-decoration: none;
 `;

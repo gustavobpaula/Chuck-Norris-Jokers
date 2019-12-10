@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card, Typography, Link } from '../../atoms';
+import { Card, Typography } from '../../atoms';
 import * as Styled from './style';
 
 const Shelf = ({ items, gridLg, gridMd, gridSm }) => (
   <Styled.Shelf gridLg={gridLg} gridMd={gridMd} gridSm={gridSm}>
     {items.map(item => (
-      <Link key={item} to="/teste">
+      <Styled.Link key={item} title={item} to={`/category/${item}`}>
         <Card>
           <Typography variant="category">{item}</Typography>
         </Card>
-      </Link>
+      </Styled.Link>
     ))}
   </Styled.Shelf>
 );
