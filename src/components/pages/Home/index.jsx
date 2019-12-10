@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Creators as CategoriesActions } from 'store/ducks/categories';
-
-import * as Styled from './style';
 import { Header } from '../../organisms';
+import { Container } from '../../atoms';
 
 function Home() {
   const dispatch = useDispatch();
@@ -16,12 +15,11 @@ function Home() {
   return (
     <>
       <Header />
-      <Styled.Componet>
-        <h1>Hello World</h1>
+      <Container>
         {categories.payload.map(category => (
           <p key={category}>{category}</p>
         ))}
-      </Styled.Componet>
+      </Container>
     </>
   );
 }
