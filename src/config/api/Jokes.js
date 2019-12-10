@@ -1,6 +1,11 @@
 import { axiosInstance } from './axios-instance';
 
-const random = () => axiosInstance.get('/random');
+const random = category =>
+  axiosInstance.get('/random', {
+    params: {
+      category,
+    },
+  });
 
 const categories = () => axiosInstance.get('/categories');
 

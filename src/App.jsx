@@ -6,6 +6,7 @@ import store, { history } from './store';
 import GlobalStyle from './globalStyle';
 
 export const Home = lazy(() => import('components/pages/Home'));
+export const Category = lazy(() => import('components/pages/Category'));
 
 export default () => (
   <>
@@ -14,9 +15,8 @@ export default () => (
       <ConnectedRouter history={history}>
         <Switch>
           <Suspense fallback={<p>Loading...</p>}>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/category/:id" component={Category} />
           </Suspense>
         </Switch>
       </ConnectedRouter>

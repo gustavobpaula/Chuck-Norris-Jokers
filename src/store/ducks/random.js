@@ -15,9 +15,7 @@ export const Types = {
 const initialState = {
   loading: false,
   error: false,
-  payload: {
-    results: [],
-  },
+  payload: {},
 };
 
 export default function reducer(state = initialState, action) {
@@ -66,10 +64,10 @@ export const Creators = {
     payload,
   }),
 
-  fetchRandom: dispatch => {
+  fetchRandomByCategory: (dispatch, category) => {
     dispatch(Creators.fetchRandomRequest());
 
-    Jokes.random()
+    Jokes.random(category)
       .then(response => {
         dispatch(Creators.fetchRandomSuccess(response.data));
       })
