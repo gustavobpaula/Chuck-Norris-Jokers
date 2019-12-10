@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { Provider } from 'react-redux';
 import { Switch, Route } from 'react-router-dom';
 import { ConnectedRouter } from 'connected-react-router';
-import store, { history } from './redux-flow';
+import store, { history } from './store';
 import GlobalStyle from './globalStyle';
 
 export const Home = lazy(() => import('components/pages/Home'));

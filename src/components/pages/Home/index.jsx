@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { Creators as RandomActions } from 'redux-flow/ducks/random';
+import { Creators as CategoriesActions } from 'store/ducks/categories';
 
 import * as Styled from './style';
 
 function Home() {
   const dispatch = useDispatch();
-  const random = useSelector(state => state.random);
+  const categories = useSelector(state => state.categories);
 
   useEffect(() => {
-    RandomActions.fetchRandom(dispatch);
+    CategoriesActions.fetchCategories(dispatch);
   }, []);
 
-  console.log(random);
+  console.log(categories);
 
   return (
     <Styled.Componet>

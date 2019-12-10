@@ -5,7 +5,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunkMiddleware from 'redux-thunk';
 import logger from 'redux-logger';
 
-import createRootReducer from 'redux-flow/ducks';
+import createRootReducer from 'store/ducks';
 
 export const history = createBrowserHistory();
 
