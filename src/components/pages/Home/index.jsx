@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Creators as CategoriesActions } from 'store/ducks/categories';
 
 import * as Styled from './style';
+import { Header } from '../../organisms';
 
 function Home() {
   const dispatch = useDispatch();
@@ -15,9 +16,12 @@ function Home() {
   console.log(categories);
 
   return (
-    <Styled.Componet>
-      <h1>Hello World</h1>
-    </Styled.Componet>
+    <>
+      <Header />
+      <Styled.Componet>
+        <h1>Hello World</h1>
+      </Styled.Componet>
+    </>
   );
 }
 
