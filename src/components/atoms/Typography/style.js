@@ -23,8 +23,12 @@ const variants = {
     text-align: center;
   `,
 
-  paragraph: () => css`
-    font-size: ${pxToRem(16)};
+  category: () => css`
+    font-size: ${pxToRem(40)};
+
+    @media (max-width: ${designSystem.get('display.sizes.phone')}) {
+      font-size: ${pxToRem(22)};
+    }
   `,
 };
 
