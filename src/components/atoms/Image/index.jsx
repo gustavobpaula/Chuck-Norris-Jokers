@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as Styled from './styled';
+import * as Styled from './style';
 
 const Image = ({ src, alt, height, width, maxHeight, maxWidth, ...rest }) => (
   <Styled.Image

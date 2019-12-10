@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import logo from '../../../assets/images/chuck-norris.svg';
 import { Image, Link } from '../../atoms';
 
-const Logo = ({ height, width, maxHeight, maxWidth }) => (
-  <Link title="Home" to="/">
+const Logo = ({ className, height, width, maxHeight, maxWidth }) => (
+  <Link className={className} title="Home" to="/">
     <Image
       height={height}
       maxHeight={maxHeight}
@@ -17,6 +17,7 @@ const Logo = ({ height, width, maxHeight, maxWidth }) => (
 );
 
 Logo.propTypes = {
+  className: PropTypes.string,
   height: PropTypes.string,
   width: PropTypes.string,
   maxHeight: PropTypes.string,
@@ -24,6 +25,7 @@ Logo.propTypes = {
 };
 
 Logo.defaultProps = {
+  className: 'logo',
   maxHeight: '100px',
   maxWidth: '100%',
   height: 'auto',

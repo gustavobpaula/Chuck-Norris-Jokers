@@ -3,8 +3,9 @@ import designSystem from './designSystem';
 
 export default createGlobalStyle`
   body {
-    color: ${designSystem.get('colors.txtPrimary')};
-    font-family: ${designSystem.get('type.fontFamily.ubuntu')};
+    background-color: ${designSystem.get('colors.color4')};
+    color: ${designSystem.get('colors.color1')};
+    font-family: ${designSystem.get('type.fontFamily.bangers')};
     font-size: ${designSystem.get('type.baseFontSize')};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

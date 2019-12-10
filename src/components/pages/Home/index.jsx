@@ -13,13 +13,14 @@ function Home() {
     CategoriesActions.fetchCategories(dispatch);
   }, []);
 
-  console.log(categories);
-
   return (
     <>
       <Header />
       <Styled.Componet>
         <h1>Hello World</h1>
+        {categories.payload.map(category => (
+          <p key={category}>{category}</p>
+        ))}
       </Styled.Componet>
     </>
   );

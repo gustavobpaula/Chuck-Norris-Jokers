@@ -20,6 +20,7 @@ const designTokens = {
       sans: '"Open Sans", sans-serif',
       serif: 'Georgia, "Times New Roman", Times, serif',
       mono: 'Menlo, Monaco, "Courier New", monospace',
+      bangers: '"Bangers", cursive',
     },
 
     lineHeight: {
@@ -40,6 +41,13 @@ const designTokens = {
       tablet: '768px', // md
       phone: '576px', // sm
     },
+  },
+
+  colors: {
+    color1: '#e8e8e8',
+    color2: '#5588a3',
+    color3: '#145374',
+    color4: '#00334e',
   },
 };
 
