@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Creators as CategoriesActions } from 'store/ducks/categories';
-import { Header } from '../../organisms';
+import { Header, Shelf } from '../../organisms';
 import { Container } from '../../atoms';
 
 function Home() {
@@ -16,9 +16,7 @@ function Home() {
     <>
       <Header />
       <Container>
-        {categories.payload.map(category => (
-          <p key={category}>{category}</p>
-        ))}
+        <Shelf items={categories.payload} />
       </Container>
     </>
   );
