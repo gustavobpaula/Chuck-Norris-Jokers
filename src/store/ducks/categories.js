@@ -15,9 +15,7 @@ export const Types = {
 const initialState = {
   loading: false,
   error: false,
-  payload: {
-    results: [],
-  },
+  payload: [],
 };
 
 export default function reducer(state = initialState, action) {
