@@ -11,7 +11,7 @@ const variants = {
       0 -1px ${designSystem.get('colors.color3')};
 
     @media (max-width: ${designSystem.get('display.sizes.phone')}) {
-      font-size: ${pxToRem(40)};
+      font-size: ${pxToRem(30)};
     }
   `,
 
