@@ -1,13 +1,13 @@
 import React from 'react';
 import { Loading } from '../../molecules';
+import { CenterMiddle } from '../../atoms';
 import { Default as Template } from '../../templates';
-import * as Styled from './style';
 
 const Load = () => (
   <Template>
-    <Styled.ContentLoader>
+    <CenterMiddle>
       <Loading height="200px" />
-    </Styled.ContentLoader>
+    </CenterMiddle>
   </Template>
 );
 
