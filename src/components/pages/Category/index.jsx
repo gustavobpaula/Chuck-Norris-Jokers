@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Creators as RandomActions } from 'store/ducks/random';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '../../atoms';
-import { ContentJoke } from '../../molecules';
+import { ContentJoke, Loading } from '../../molecules';
 import { Default as Template } from '../../templates';
 import * as Styled from './style';
 
@@ -24,20 +24,24 @@ function Category({ match }) {
   return (
     <Template>
       <ContentJoke>
-        {joke.loading || !joke.payload.value
-          ? 'Loading...'
-          : joke.payload.value}
+        {joke.loading || !joke.payload.value ? (
+          <Loading height="60px" />
+        ) : (
+          joke.payload.value
+        )}
       </ContentJoke>
-      <Styled.Button onClick={handleClick}>
-        <Card>
-          <Typography variant="button">See another joke</Typography>
-        </Card>
-      </Styled.Button>
-      <Styled.Link to="/" title="Home">
-        <Card>
-          <Typography variant="button">Choose another category</Typography>
-        </Card>
-      </Styled.Link>
+      <Styled.Actions>
+        <Styled.Button onClick={handleClick}>
+          <Card>
+            <Typography variant="button">See another joke</Typography>
+          </Card>
+        </Styled.Button>
+        <Styled.Link to="/" title="Home">
+          <Card>
+            <Typography variant="button">Choose another category</Typography>
+          </Card>
+        </Styled.Link>
+      </Styled.Actions>
     </Template>
   );
 }

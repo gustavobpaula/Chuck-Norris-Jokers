@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import { ConnectedRouter } from 'connected-react-router';
 import store, { history } from './store';
 import GlobalStyle from './globalStyle';
+import Load from './components/pages/Load';
 
 export const Home = lazy(() => import('components/pages/Home'));
 export const Category = lazy(() => import('components/pages/Category'));
@@ -14,7 +15,7 @@ export default () => (
     <Provider store={store}>
       <ConnectedRouter history={history}>
         <Switch>
-          <Suspense fallback={<p>Loading...</p>}>
+          <Suspense fallback={<Load />}>
             <Route exact path="/" component={Home} />
             <Route exact path="/category/:id" component={Category} />
           </Suspense>
