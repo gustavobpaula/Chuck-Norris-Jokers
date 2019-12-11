@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { Logo } from '../../molecules';
 import * as Styled from './style';
 
 const Header = () => (
   <Styled.Header>
-    <Styled.Logo />
+    <Logo />
   </Styled.Header>
 );
 

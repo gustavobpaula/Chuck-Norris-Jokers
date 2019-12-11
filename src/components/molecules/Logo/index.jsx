@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import logo from '../../../assets/images/chuck-norris.svg';
-import { Image, Link } from '../../atoms';
+import { Image, Typography } from '../../atoms';
+import * as Styled from './style';
 
 const Logo = ({ className, height, width, maxHeight, maxWidth }) => (
-  <Link className={className} title="Home" to="/">
+  <Styled.Link className={className} title="Home" to="/">
     <Image
       height={height}
       maxHeight={maxHeight}
@@ -13,7 +14,8 @@ const Logo = ({ className, height, width, maxHeight, maxWidth }) => (
       src={logo}
       alt="Chuck Norris Logo"
     />
-  </Link>
+    <Typography variant="logo">Chuck &quot;Joke&quot; Norris</Typography>
+  </Styled.Link>
 );
 
 Logo.propTypes = {
