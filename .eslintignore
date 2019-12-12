@@ -2,5 +2,3 @@ webpack.common.js
 webpack.prod.js
 webpack.dev.js
 storybook
-*.test.jsx
-*.test.js

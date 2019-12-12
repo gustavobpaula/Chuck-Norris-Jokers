@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should has a h1 tag 1`] = `
+<h1
+  className="style__Typography-sc-8vyb1l-0 cBZQFp"
+>
+  Component Typography
+</h1>
+`;
+
+exports[`<Typography /> should mount properly 1`] = `
+<Typography
+  component="span"
+  variant="paragraph"
+>
+  <style__Typography
+    as="span"
+    variant="paragraph"
+  >
+    <StyledComponent
+      as="span"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "style__Typography-sc-8vyb1l-0",
+            "isStatic": false,
+            "lastClassName": "cBZQFp",
+            "rules": Array [
+              [Function],
+            ],
+          },
+          "displayName": "style__Typography",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      variant="paragraph"
+    >
+      <span
+        className="style__Typography-sc-8vyb1l-0 cBZQFp"
+      >
+        Component Typography
+      </span>
+    </StyledComponent>
+  </style__Typography>
+</Typography>
+`;

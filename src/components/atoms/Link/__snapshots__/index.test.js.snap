@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should mount properly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <LinkTo
+      className="link"
+      title="Link Component"
+      to="/"
+    >
+      <Link
+        className="link"
+        title="Link Component"
+        to="/"
+      >
+        <LinkAnchor
+          className="link"
+          href="/"
+          navigate={[Function]}
+          title="Link Component"
+        >
+          <a
+            className="link"
+            href="/"
+            onClick={[Function]}
+            title="Link Component"
+          >
+            Component Link
+          </a>
+        </LinkAnchor>
+      </Link>
+    </LinkTo>
+  </Router>
+</BrowserRouter>
+`;

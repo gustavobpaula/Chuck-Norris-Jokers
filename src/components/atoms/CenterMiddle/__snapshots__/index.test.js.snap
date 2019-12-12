@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CenterMiddle /> should mount properly 1`] = `
+<CenterMiddle>
+  <style__Center>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "style__Center-sc-1qm54d6-0",
+            "isStatic": false,
+            "lastClassName": "hWvMyz",
+            "rules": Array [
+              "left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);",
+            ],
+          },
+          "displayName": "style__Center",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "style__Center-sc-1qm54d6-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="style__Center-sc-1qm54d6-0 hWvMyz"
+      >
+        <h1>
+          Centered Content
+        </h1>
+      </div>
+    </StyledComponent>
+  </style__Center>
+</CenterMiddle>
+`;

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should mount properly 1`] = `
+<Image
+  alt="Chuck Norris"
+  height="auto"
+  maxHeight="100%"
+  maxWidth="100%"
+  src="test-file-stub"
+  width="auto"
+>
+  <style__Image
+    alt="Chuck Norris"
+    height="auto"
+    maxHeight="100%"
+    maxWidth="100%"
+    src="test-file-stub"
+    width="auto"
+  >
+    <StyledComponent
+      alt="Chuck Norris"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "style__Image-zsbil-0",
+            "isStatic": false,
+            "lastClassName": "bSPXyq",
+            "rules": Array [
+              "height:",
+              [Function],
+              ";max-height:",
+              [Function],
+              ";max-width:",
+              [Function],
+              ";width:",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "style__Image",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "style__Image-zsbil-0",
+          "target": "img",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      height="auto"
+      maxHeight="100%"
+      maxWidth="100%"
+      src="test-file-stub"
+      width="auto"
+    >
+      <img
+        alt="Chuck Norris"
+        className="style__Image-zsbil-0 bSPXyq"
+        height="auto"
+        src="test-file-stub"
+        width="auto"
+      />
+    </StyledComponent>
+  </style__Image>
+</Image>
+`;
