@@ -38,6 +38,14 @@ const variants = {
       font-size: ${pxToRem(22)};
     }
   `,
+
+  paragraph: () => css`
+    font-size: ${pxToRem(18)};
+
+    @media (max-width: ${designSystem.get('display.sizes.phone')}) {
+      font-size: ${pxToRem(16)};
+    }
+  `,
 };
 
 export const Typography = styled.span`
