@@ -94,6 +94,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
+      favicon: './src/assets/images/favicon-16x16.png',
     }),
     new Dotenv(),
   ],
