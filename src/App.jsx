@@ -19,7 +19,7 @@ export default () => (
           <Suspense fallback={<Load />}>
             <Route exact path="/" component={Home} />
             <Route exact path="/category/:id" component={Category} />
-            <Route component={NotFound} />
+            <Route path="/404" component={NotFound} />
           </Suspense>
         </Switch>
       </ConnectedRouter>

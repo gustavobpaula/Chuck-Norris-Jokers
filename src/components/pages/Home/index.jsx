@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Creators as CategoriesActions } from 'store/ducks/categories';
-import { Shelf } from '../../organisms';
+import { Shelf, NotFound } from '../../organisms';
 import { Default as Template } from '../../templates';
+import { Loading } from '../../molecules';
+import { CenterMiddle } from '../../atoms';
 
 function Home() {
   const dispatch = useDispatch();
@@ -14,7 +16,15 @@ function Home() {
 
   return (
     <Template>
-      <Shelf items={categories.payload} />
+      {categories.loading && (
+        <CenterMiddle>
+          <Loading height="200" />
+        </CenterMiddle>
+      )}
+
+      {categories.error && <NotFound />}
+
+      {categories.payload && <Shelf items={categories.payload} />}
     </Template>
   );
 }
