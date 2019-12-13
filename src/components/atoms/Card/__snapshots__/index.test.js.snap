@@ -11,13 +11,15 @@ exports[`<Card /> should mount properly 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "style__Card-sc-7a5vgg-0",
             "isStatic": false,
-            "lastClassName": "hEuRRR",
+            "lastClassName": "jiDEyg",
             "rules": Array [
               "background-color:",
               "#145374",
-              ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+              ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;@media (min-width:",
+              "992px",
+              "){&:hover{background-color:",
               "#5588a3",
-              ";transform:scale(1.05);z-index:2;}",
+              ";transform:scale(1.05);z-index:2;}}",
             ],
           },
           "displayName": "style__Card",
@@ -33,7 +35,7 @@ exports[`<Card /> should mount properly 1`] = `
       forwardedRef={null}
     >
       <div
-        className="style__Card-sc-7a5vgg-0 hEuRRR"
+        className="style__Card-sc-7a5vgg-0 jiDEyg"
       >
         Card Component
       </div>
