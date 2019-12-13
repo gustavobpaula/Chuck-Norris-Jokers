@@ -2,3 +2,4 @@
   from = "/*"
   to = "https://chuck-joke-norris.netlify.com/"
   status = 200
+  force = true
