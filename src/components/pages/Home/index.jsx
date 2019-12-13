@@ -24,7 +24,9 @@ function Home() {
 
       {categories.error && <NotFound />}
 
-      {categories.payload && <Shelf items={categories.payload} />}
+      {categories.payload && !categories.loading && (
+        <Shelf items={categories.payload} />
+      )}
     </Template>
   );
 }
