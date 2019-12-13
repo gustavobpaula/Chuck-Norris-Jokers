@@ -27,7 +27,7 @@ node_modules/
 jspm_packages/
 
 #vscode configuration
-.vscode
+# .vscode
 
 # Optional npm cache directory
 .npm

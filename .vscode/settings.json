@@ -1,0 +1,24 @@
+{
+	/********************* Format and Linter ********************************/
+	// these are all my auto-save configs
+	"editor.formatOnSave": true,
+	// // turn it off for JS
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "typescript",
+			"autoFix": true
+		},
+		{
+			"language": "typescriptreact",
+			"autoFix": true
+		}
+	],
+	//"editor.formatOnSave": true,
+	"eslint.alwaysShowStatus": true,
+}

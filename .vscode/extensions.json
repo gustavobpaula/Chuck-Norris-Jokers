@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "shinnn.stylelint",
+    "jpoissonnier.vscode-styled-components",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-next"
+  ]
+}
