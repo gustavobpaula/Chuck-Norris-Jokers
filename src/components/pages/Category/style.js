@@ -17,4 +17,5 @@ export const Button = styled.button`
   border: 0;
   color: inherit;
   font-family: inherit;
+  outline: none;
 `;
