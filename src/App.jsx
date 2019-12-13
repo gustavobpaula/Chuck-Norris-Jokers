@@ -3,7 +3,6 @@ import { Provider } from 'react-redux';
 import { Switch, Route } from 'react-router-dom';
 import { ConnectedRouter } from 'connected-react-router';
 import Load from 'components/pages/Load';
-import Page404 from 'components/pages/404';
 import store, { history } from './store';
 import GlobalStyle from './globalStyle';
 
@@ -19,7 +18,6 @@ export default () => (
           <Suspense fallback={<Load />}>
             <Route exact path="/" component={Home} />
             <Route exact path="/category/:id" component={Category} />
-            <Route component={Page404} />
           </Suspense>
         </Switch>
       </ConnectedRouter>
