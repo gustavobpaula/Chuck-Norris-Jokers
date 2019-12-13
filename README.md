@@ -12,6 +12,7 @@ O projeto foi construído com as seguintes tecnologioas:
 
 * [React](https://pt-br.reactjs.org/) -  É o core da aplicação;
 * [Redux](https://redux.js.org/) - Para gerenciamento de estado;
+* [Webpack](https://webpack.js.org/) - Para gerenciamento de modulos e dependências de desenvolvimento web;
 * [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) - Para estruturação de componentes
 * [Styled Components](https://www.styled-components.com/docs) - Para estilização de componentes
 * [Jest and Enzyme](https://medium.com/@rossbulat/testing-in-react-with-jest-and-enzyme-an-introduction-99ce047dfcf8) - Para testar a aplicação
