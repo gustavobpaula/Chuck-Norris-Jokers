@@ -5,9 +5,12 @@ module.exports = {
   coverageDirectory: 'coverage',
   coveragePathIgnorePatterns: [
     'src/config',
+    'src/assets',
+    'src/config',
     'src/containers',
     'src/designSystem',
-    'src/redux-flow/constants',
+    'src/store',
+    'src/utils',
   ],
   moduleFileExtensions: ['js', 'json', 'jsx'],
   transform: {
