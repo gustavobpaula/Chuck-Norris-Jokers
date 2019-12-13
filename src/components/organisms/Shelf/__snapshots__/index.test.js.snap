@@ -1,0 +1,2360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Shelf /> should mount properly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Shelf
+      gridLg={4}
+      gridMd={3}
+      gridSm={2}
+      items={
+        Array [
+          "animal",
+          "career",
+          "celebrity",
+          "dev",
+          "explicit",
+          "fashion",
+          "food",
+          "history",
+          "money",
+          "movie",
+          "music",
+          "political",
+          "religion",
+          "science",
+          "sport",
+          "travel",
+        ]
+      }
+    >
+      <style__Shelf
+        gridLg={4}
+        gridMd={3}
+        gridSm={2}
+      >
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "style__Shelf-sc-12w522m-0",
+                "isStatic": false,
+                "lastClassName": "gPwYna",
+                "rules": Array [
+                  "display:grid;grid-gap:1rem;grid-template-columns:repeat(",
+                  [Function],
+                  ",1fr);margin:50px 0;@media (min-width:",
+                  "768px",
+                  "){grid-template-columns:repeat(",
+                  [Function],
+                  ",1fr);}@media (min-width:",
+                  "992px",
+                  "){grid-template-columns:repeat(",
+                  [Function],
+                  ",1fr);}",
+                ],
+              },
+              "displayName": "style__Shelf",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "style__Shelf-sc-12w522m-0",
+              "target": "article",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          gridLg={4}
+          gridMd={3}
+          gridSm={2}
+        >
+          <article
+            className="style__Shelf-sc-12w522m-0 gPwYna"
+          >
+            <style__Link
+              key="animal"
+              title="animal"
+              to="/category/animal"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="animal"
+                to="/category/animal"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="animal"
+                  to="/category/animal"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="animal"
+                    to="/category/animal"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/animal"
+                      navigate={[Function]}
+                      title="animal"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/animal"
+                        onClick={[Function]}
+                        title="animal"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        animal
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="career"
+              title="career"
+              to="/category/career"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="career"
+                to="/category/career"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="career"
+                  to="/category/career"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="career"
+                    to="/category/career"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/career"
+                      navigate={[Function]}
+                      title="career"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/career"
+                        onClick={[Function]}
+                        title="career"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        career
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="celebrity"
+              title="celebrity"
+              to="/category/celebrity"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="celebrity"
+                to="/category/celebrity"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="celebrity"
+                  to="/category/celebrity"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="celebrity"
+                    to="/category/celebrity"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/celebrity"
+                      navigate={[Function]}
+                      title="celebrity"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/celebrity"
+                        onClick={[Function]}
+                        title="celebrity"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        celebrity
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="dev"
+              title="dev"
+              to="/category/dev"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="dev"
+                to="/category/dev"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="dev"
+                  to="/category/dev"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="dev"
+                    to="/category/dev"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/dev"
+                      navigate={[Function]}
+                      title="dev"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/dev"
+                        onClick={[Function]}
+                        title="dev"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        dev
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="explicit"
+              title="explicit"
+              to="/category/explicit"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="explicit"
+                to="/category/explicit"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="explicit"
+                  to="/category/explicit"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="explicit"
+                    to="/category/explicit"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/explicit"
+                      navigate={[Function]}
+                      title="explicit"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/explicit"
+                        onClick={[Function]}
+                        title="explicit"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        explicit
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="fashion"
+              title="fashion"
+              to="/category/fashion"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="fashion"
+                to="/category/fashion"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="fashion"
+                  to="/category/fashion"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="fashion"
+                    to="/category/fashion"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/fashion"
+                      navigate={[Function]}
+                      title="fashion"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/fashion"
+                        onClick={[Function]}
+                        title="fashion"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        fashion
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="food"
+              title="food"
+              to="/category/food"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="food"
+                to="/category/food"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="food"
+                  to="/category/food"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="food"
+                    to="/category/food"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/food"
+                      navigate={[Function]}
+                      title="food"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/food"
+                        onClick={[Function]}
+                        title="food"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        food
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="history"
+              title="history"
+              to="/category/history"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="history"
+                to="/category/history"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="history"
+                  to="/category/history"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="history"
+                    to="/category/history"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/history"
+                      navigate={[Function]}
+                      title="history"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/history"
+                        onClick={[Function]}
+                        title="history"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        history
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="money"
+              title="money"
+              to="/category/money"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="money"
+                to="/category/money"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="money"
+                  to="/category/money"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="money"
+                    to="/category/money"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/money"
+                      navigate={[Function]}
+                      title="money"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/money"
+                        onClick={[Function]}
+                        title="money"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        money
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="movie"
+              title="movie"
+              to="/category/movie"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="movie"
+                to="/category/movie"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="movie"
+                  to="/category/movie"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="movie"
+                    to="/category/movie"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/movie"
+                      navigate={[Function]}
+                      title="movie"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/movie"
+                        onClick={[Function]}
+                        title="movie"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        movie
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="music"
+              title="music"
+              to="/category/music"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="music"
+                to="/category/music"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="music"
+                  to="/category/music"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="music"
+                    to="/category/music"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/music"
+                      navigate={[Function]}
+                      title="music"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/music"
+                        onClick={[Function]}
+                        title="music"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        music
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="political"
+              title="political"
+              to="/category/political"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="political"
+                to="/category/political"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="political"
+                  to="/category/political"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="political"
+                    to="/category/political"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/political"
+                      navigate={[Function]}
+                      title="political"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/political"
+                        onClick={[Function]}
+                        title="political"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        political
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="religion"
+              title="religion"
+              to="/category/religion"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="religion"
+                to="/category/religion"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="religion"
+                  to="/category/religion"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="religion"
+                    to="/category/religion"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/religion"
+                      navigate={[Function]}
+                      title="religion"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/religion"
+                        onClick={[Function]}
+                        title="religion"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        religion
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="science"
+              title="science"
+              to="/category/science"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="science"
+                to="/category/science"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="science"
+                  to="/category/science"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="science"
+                    to="/category/science"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/science"
+                      navigate={[Function]}
+                      title="science"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/science"
+                        onClick={[Function]}
+                        title="science"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        science
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="sport"
+              title="sport"
+              to="/category/sport"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="sport"
+                to="/category/sport"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="sport"
+                  to="/category/sport"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="sport"
+                    to="/category/sport"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/sport"
+                      navigate={[Function]}
+                      title="sport"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/sport"
+                        onClick={[Function]}
+                        title="sport"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        sport
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+            <style__Link
+              key="travel"
+              title="travel"
+              to="/category/travel"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Link-sc-12w522m-1",
+                      "isStatic": false,
+                      "lastClassName": "gBYznk",
+                      "rules": Array [
+                        "color:inherit;text-decoration:none;",
+                      ],
+                    },
+                    "displayName": "style__Link",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Link-sc-12w522m-1",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                title="travel"
+                to="/category/travel"
+              >
+                <LinkTo
+                  className="style__Link-sc-12w522m-1 gBYznk"
+                  title="travel"
+                  to="/category/travel"
+                >
+                  <Link
+                    className="style__Link-sc-12w522m-1 gBYznk"
+                    title="travel"
+                    to="/category/travel"
+                  >
+                    <LinkAnchor
+                      className="style__Link-sc-12w522m-1 gBYznk"
+                      href="/category/travel"
+                      navigate={[Function]}
+                      title="travel"
+                    >
+                      <a
+                        className="style__Link-sc-12w522m-1 gBYznk"
+                        href="/category/travel"
+                        onClick={[Function]}
+                        title="travel"
+                      >
+                        <Card>
+                          <style__Card>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "style__Card-sc-7a5vgg-0",
+                                    "isStatic": false,
+                                    "lastClassName": "hEuRRR",
+                                    "rules": Array [
+                                      "background-color:",
+                                      "#145374",
+                                      ";border-radius:15px;cursor:pointer;padding:20px;text-align:center;transition:background-color 0.3s ease,transform 0.3s ease;z-index:1;&:hover{background-color:",
+                                      "#5588a3",
+                                      ";transform:scale(1.05);z-index:2;}",
+                                    ],
+                                  },
+                                  "displayName": "style__Card",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "style__Card-sc-7a5vgg-0",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="style__Card-sc-7a5vgg-0 hEuRRR"
+                              >
+                                <Typography
+                                  component="span"
+                                  variant="category"
+                                >
+                                  <style__Typography
+                                    as="span"
+                                    variant="category"
+                                  >
+                                    <StyledComponent
+                                      as="span"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "style__Typography-sc-8vyb1l-0",
+                                            "isStatic": false,
+                                            "lastClassName": "exMFWw",
+                                            "rules": Array [
+                                              [Function],
+                                            ],
+                                          },
+                                          "displayName": "style__Typography",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                                          "target": "span",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      variant="category"
+                                    >
+                                      <span
+                                        className="style__Typography-sc-8vyb1l-0 exMFWw"
+                                      >
+                                        travel
+                                      </span>
+                                    </StyledComponent>
+                                  </style__Typography>
+                                </Typography>
+                              </div>
+                            </StyledComponent>
+                          </style__Card>
+                        </Card>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </LinkTo>
+              </StyledComponent>
+            </style__Link>
+          </article>
+        </StyledComponent>
+      </style__Shelf>
+    </Shelf>
+  </Router>
+</BrowserRouter>
+`;

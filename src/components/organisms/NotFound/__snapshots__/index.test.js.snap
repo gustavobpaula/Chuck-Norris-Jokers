@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should mount properly 1`] = `
+<NotFound>
+  <CenterMiddle>
+    <style__Center>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "style__Center-sc-1qm54d6-0",
+              "isStatic": false,
+              "lastClassName": "hWvMyz",
+              "rules": Array [
+                "left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);",
+              ],
+            },
+            "displayName": "style__Center",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "style__Center-sc-1qm54d6-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="style__Center-sc-1qm54d6-0 hWvMyz"
+        >
+          <Image
+            alt="404 - Not Found"
+            height="auto"
+            maxHeight="100%"
+            maxWidth="100%"
+            src="test-file-stub"
+            width="auto"
+          >
+            <style__Image
+              alt="404 - Not Found"
+              height="auto"
+              maxHeight="100%"
+              maxWidth="100%"
+              src="test-file-stub"
+              width="auto"
+            >
+              <StyledComponent
+                alt="404 - Not Found"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "style__Image-zsbil-0",
+                      "isStatic": false,
+                      "lastClassName": "bSPXyq",
+                      "rules": Array [
+                        "height:",
+                        [Function],
+                        ";max-height:",
+                        [Function],
+                        ";max-width:",
+                        [Function],
+                        ";width:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "style__Image",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "style__Image-zsbil-0",
+                    "target": "img",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                height="auto"
+                maxHeight="100%"
+                maxWidth="100%"
+                src="test-file-stub"
+                width="auto"
+              >
+                <img
+                  alt="404 - Not Found"
+                  className="style__Image-zsbil-0 bSPXyq"
+                  height="auto"
+                  src="test-file-stub"
+                  width="auto"
+                />
+              </StyledComponent>
+            </style__Image>
+          </Image>
+        </div>
+      </StyledComponent>
+    </style__Center>
+  </CenterMiddle>
+</NotFound>
+`;

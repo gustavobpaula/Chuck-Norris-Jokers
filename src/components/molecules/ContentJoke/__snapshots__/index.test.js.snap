@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentJoke /> should mount properly 1`] = `
+<ContentJoke>
+  <style__Joke>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "style__Joke-sc-1tgzdwc-0",
+            "isStatic": false,
+            "lastClassName": "OPlMV",
+            "rules": Array [
+              "background-color:",
+              "#5588a3",
+              ";border-radius:20px;margin-top:50px;padding:50px;text-align:center;width:100%;",
+            ],
+          },
+          "displayName": "style__Joke",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "style__Joke-sc-1tgzdwc-0",
+          "target": "article",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <article
+        className="style__Joke-sc-1tgzdwc-0 OPlMV"
+      >
+        <Typography
+          component="h1"
+          variant="joke"
+        >
+          <style__Typography
+            as="h1"
+            variant="joke"
+          >
+            <StyledComponent
+              as="h1"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "style__Typography-sc-8vyb1l-0",
+                    "isStatic": false,
+                    "lastClassName": "eeZxzb",
+                    "rules": Array [
+                      [Function],
+                    ],
+                  },
+                  "displayName": "style__Typography",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                  "target": "span",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              variant="joke"
+            >
+              <h1
+                className="style__Typography-sc-8vyb1l-0 eeZxzb"
+              >
+                A Handicapped parking sign does not signify that this spot is for handicapped people. It is actually in fact a warning, that the spot belongs to Chuck Norris and that you will be handicapped if you park there
+              </h1>
+            </StyledComponent>
+          </style__Typography>
+        </Typography>
+      </article>
+    </StyledComponent>
+  </style__Joke>
+</ContentJoke>
+`;

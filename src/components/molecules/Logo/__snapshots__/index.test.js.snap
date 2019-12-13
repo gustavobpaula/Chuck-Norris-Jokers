@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should mount properly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Logo
+      className="logo"
+      height="auto"
+      maxHeight="100px"
+      maxWidth="100%"
+      width="auto"
+    >
+      <style__Link
+        className="logo"
+        title="Home"
+        to="/"
+      >
+        <StyledComponent
+          className="logo"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "style__Link-sc-8pdh8h-0",
+                "isStatic": false,
+                "lastClassName": "hxIPvP",
+                "rules": Array [
+                  "align-items:center;color:",
+                  "#00334e",
+                  ";display:flex;justify-content:center;text-decoration:none;",
+                ],
+              },
+              "displayName": "style__Link",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "style__Link-sc-8pdh8h-0",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          title="Home"
+          to="/"
+        >
+          <LinkTo
+            className="style__Link-sc-8pdh8h-0 hxIPvP logo"
+            title="Home"
+            to="/"
+          >
+            <Link
+              className="style__Link-sc-8pdh8h-0 hxIPvP logo"
+              title="Home"
+              to="/"
+            >
+              <LinkAnchor
+                className="style__Link-sc-8pdh8h-0 hxIPvP logo"
+                href="/"
+                navigate={[Function]}
+                title="Home"
+              >
+                <a
+                  className="style__Link-sc-8pdh8h-0 hxIPvP logo"
+                  href="/"
+                  onClick={[Function]}
+                  title="Home"
+                >
+                  <Image
+                    alt="Chuck Norris Logo"
+                    height="auto"
+                    maxHeight="100px"
+                    maxWidth="100%"
+                    src="test-file-stub"
+                    width="auto"
+                  >
+                    <style__Image
+                      alt="Chuck Norris Logo"
+                      height="auto"
+                      maxHeight="100px"
+                      maxWidth="100%"
+                      src="test-file-stub"
+                      width="auto"
+                    >
+                      <StyledComponent
+                        alt="Chuck Norris Logo"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "style__Image-zsbil-0",
+                              "isStatic": false,
+                              "lastClassName": "nQWWf",
+                              "rules": Array [
+                                "height:",
+                                [Function],
+                                ";max-height:",
+                                [Function],
+                                ";max-width:",
+                                [Function],
+                                ";width:",
+                                [Function],
+                                ";",
+                              ],
+                            },
+                            "displayName": "style__Image",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "style__Image-zsbil-0",
+                            "target": "img",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="auto"
+                        maxHeight="100px"
+                        maxWidth="100%"
+                        src="test-file-stub"
+                        width="auto"
+                      >
+                        <img
+                          alt="Chuck Norris Logo"
+                          className="style__Image-zsbil-0 nQWWf"
+                          height="auto"
+                          src="test-file-stub"
+                          width="auto"
+                        />
+                      </StyledComponent>
+                    </style__Image>
+                  </Image>
+                  <Typography
+                    component="span"
+                    variant="logo"
+                  >
+                    <style__Typography
+                      as="span"
+                      variant="logo"
+                    >
+                      <StyledComponent
+                        as="span"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "style__Typography-sc-8vyb1l-0",
+                              "isStatic": false,
+                              "lastClassName": "jIxkTh",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "style__Typography",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "style__Typography-sc-8vyb1l-0",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        variant="logo"
+                      >
+                        <span
+                          className="style__Typography-sc-8vyb1l-0 jIxkTh"
+                        >
+                          Chuck "Joke" Norris
+                        </span>
+                      </StyledComponent>
+                    </style__Typography>
+                  </Typography>
+                </a>
+              </LinkAnchor>
+            </Link>
+          </LinkTo>
+        </StyledComponent>
+      </style__Link>
+    </Logo>
+  </Router>
+</BrowserRouter>
+`;
