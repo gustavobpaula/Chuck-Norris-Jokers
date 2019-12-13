@@ -8,6 +8,7 @@ import GlobalStyle from './globalStyle';
 
 export const Home = lazy(() => import('components/pages/Home'));
 export const Category = lazy(() => import('components/pages/Category'));
+export const Page404 = lazy(() => import('components/pages/404'));
 
 export default () => (
   <>
@@ -18,6 +19,7 @@ export default () => (
           <Suspense fallback={<Load />}>
             <Route exact path="/" component={Home} />
             <Route exact path="/category/:id" component={Category} />
+            <Route path="/404" component={Page404} />
           </Suspense>
         </Switch>
       </ConnectedRouter>
