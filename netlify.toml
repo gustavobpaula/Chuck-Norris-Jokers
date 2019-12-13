@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "https://chuck-joke-norris.netlify.com/"
   status = 200
