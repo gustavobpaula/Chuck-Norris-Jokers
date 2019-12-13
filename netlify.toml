@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "https://chuck-joke-norris.netlify.com/"
+  to = "/404"
   status = 200
   force = true
