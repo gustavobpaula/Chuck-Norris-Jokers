@@ -12,14 +12,16 @@ export const Page404 = lazy(() => import('components/pages/404'));
 
 export default () => {
   useEffect(() => {
-    setTimeout(() => {
-      // eslint-disable-next-line no-unused-expressions
-      window?.opener?.document?.write(
-        '<p>A Aplicação filha manda essa informação</p>'
-      );
-      // eslint-disable-next-line no-unused-expressions
-      window?.close();
-    }, 5000);
+    // eslint-disable-next-line no-unused-expressions
+    window?.opener &&
+      setTimeout(() => {
+        // eslint-disable-next-line no-unused-expressions
+        window?.opener?.showChildMessage(
+          'O modal do chuck norris acabou de ser fechado'
+        );
+        // eslint-disable-next-line no-unused-expressions
+        window?.close();
+      }, 5000);
   }, []);
   return (
     <>
