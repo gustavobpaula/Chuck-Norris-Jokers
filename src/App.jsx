@@ -16,8 +16,9 @@ export default () => {
     window?.opener &&
       setTimeout(() => {
         // eslint-disable-next-line no-unused-expressions
-        window?.opener?.showChildMessage(
-          'O modal do chuck norris acabou de ser fechado'
+        window?.opener?.postMessage(
+          'O popup do chuck norris acabou de ser fechado. E essa mensagem está sendo enviada pelo próprio popup',
+          '*'
         );
         // eslint-disable-next-line no-unused-expressions
         window?.close();
